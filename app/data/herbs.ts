@@ -9,7 +9,7 @@ export const herbs: Herb[] = [
       { name: "love"},
       { name: "abundance"}
     ],
-    image: "Basil.jpg"
+    image: "/Basil.jpg"
   },
   {
     name: "Bay Leaf",
@@ -19,7 +19,7 @@ export const herbs: Herb[] = [
       { name: "purification"},
       { name: "clarity"}
     ],
-    image: "BayLeaves.jpg"
+    image: "/BayLeaves.jpg"
   },
   {
     name: "Calendula",
@@ -29,7 +29,7 @@ export const herbs: Herb[] = [
       { name: "protection"},
       { name: "fire"}
     ],
-    image: "calendula.jpg"
+    image: "/calendula.jpg"
   },
   {
     name: "Chamomile",
@@ -40,7 +40,7 @@ export const herbs: Herb[] = [
       { name: "positivity"},
       { name: "restful sleep"}
     ],
-    image: "chamomile.jpg"
+    image: "/chamomile.jpg"
   },
   {
     name: "Cinnamon",
@@ -52,7 +52,7 @@ export const herbs: Herb[] = [
       { name: "abundance"},
       { name: "fire"}
     ],
-    image: "cinnamon.jpg"
+    image: "/cinnamon.jpg"
   },
   {
     name: "Cloves",
@@ -62,7 +62,7 @@ export const herbs: Herb[] = [
       { name: "purification"},
       { name: "self esteem"}
     ],
-    image: "Cloves.jpg"
+    image: "/Cloves.jpg"
   },
   {
     name: "Comfrey",
@@ -71,7 +71,7 @@ export const herbs: Herb[] = [
       { name: "healing"},
       { name: "positivity"}
     ],
-    image: "comfrey.jpg"
+    image: "/comfrey.jpg"
   },
   {
     name: "Dill",
@@ -82,7 +82,7 @@ export const herbs: Herb[] = [
       { name: "focus"},
       { name: "abundance"}
     ],
-    image: "dill.jpg"
+    image: "/dill.jpg"
   },
     {
     name: "Frankincense",
@@ -91,7 +91,7 @@ export const herbs: Herb[] = [
       { name: "purification"},
       { name: "release negativity"},
     ],
-    image: "Frankincense.jpg"
+    image: "/Frankincense.jpg"
   },
   {
     name: "Ivy",
@@ -100,7 +100,7 @@ export const herbs: Herb[] = [
       { name: "love"},
       { name: "water"}
     ],
-    image: "ivy.jpg"
+    image: "/ivy.jpg"
   },
   {
     name: "Lavender",
@@ -111,7 +111,7 @@ export const herbs: Herb[] = [
       { name: "healing"},
       { name: "air"}
     ],
-    image: "lavender.jpg"
+    image: "/lavender.jpg"
   },
   {
     name: "Lemon Balm",
@@ -121,7 +121,7 @@ export const herbs: Herb[] = [
       { name: "relaxation"},
       { name: "positivity"}
     ],
-    image: "Lemonbalm.jpg"
+    image: "/Lemonbalm.jpg"
   },
   {
     name: "Mugwort",
@@ -132,7 +132,7 @@ export const herbs: Herb[] = [
       { name: "intuition"},
       { name: "earth"}
     ],
-    image: "Mugwort.jpg"
+    image: "/Mugwort.jpg"
   },
   {
     name: "Myrrh",
@@ -142,7 +142,7 @@ export const herbs: Herb[] = [
       { name: "protection"},
       { name: "cleansing"}
     ],
-    image: "Myrrh.jpg"
+    image: "/Myrrh.jpg"
   },
   {
     name: "Nettle",
@@ -153,7 +153,7 @@ export const herbs: Herb[] = [
       { name: "healing"},
       { name: "fire"}
     ],
-    image: "Nettle.jpg"
+    image: "/Nettle.jpg"
   },
   {
     name: "Peppermint",
@@ -163,7 +163,7 @@ export const herbs: Herb[] = [
       { name: "focus"},
       { name: "air"}
     ],
-    image: "peppermint.jpg"
+    image: "/peppermint.jpg"
   },
   {
     name: "Rose Petals",
@@ -173,7 +173,7 @@ export const herbs: Herb[] = [
       { name: "love"},
       { name: "healing"}
     ],
-    image: "rose.jpg"
+    image: "/rose.jpg"
   },
   {
     name: "Rosemary",
@@ -182,7 +182,7 @@ export const herbs: Herb[] = [
       { name: "protection"},
       { name: "clarity",}
     ],
-    image: "rosemary.jpg"
+    image: "/rosemary.jpg"
   },
   {
     name: "Sage",
@@ -193,7 +193,7 @@ export const herbs: Herb[] = [
       { name: "healing"},
       { name: "purification"}
     ],
-    image: "Sage.jpg"
+    image: "/Sage.jpg"
   },
   {
     name: "Spearmint",
@@ -203,7 +203,7 @@ export const herbs: Herb[] = [
       { name: "focus"},
       { name: "purification"}
     ],
-    image: "spearmint.jpg"
+    image: "/spearmint.jpg"
   },
   {
     name: "Thyme",
@@ -213,7 +213,7 @@ export const herbs: Herb[] = [
       { name: "courage"},
       { name: "strength"}
     ],
-    image: "Thyme.jpg"
+    image: "/Thyme.jpg"
   },
   {
     name: "Yarrow",
@@ -223,7 +223,7 @@ export const herbs: Herb[] = [
       { name: "protection"},
       { name: "clarity"}
     ],
-    image: "yarrow.jpg"
+    image: "/yarrow.jpg"
   }
   
 ];

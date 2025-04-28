@@ -5,9 +5,7 @@ export async function POST(request: Request) {
   try {
     console.log("Received email request");
     const { email, spell } = await request.json();
-    console.log("Email:", email);
-    console.log("Spell name:", spell?.name || "undefined");
-
+    
     // Check for required env vars
     if (!process.env.GMAIL_USER || !process.env.GMAIL_APP_PASSWORD) {
       console.error("Missing Gmail credentials in environment variables");
@@ -16,20 +14,16 @@ export async function POST(request: Request) {
       }, { status: 500 });
     }
 
-    // Create a transporter using Gmail with fixed SSL settings
+    // Create a transporter using Gmail
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
         user: process.env.GMAIL_USER,
         pass: process.env.GMAIL_APP_PASSWORD,
-      },
-      // Fix for self-signed certificate error
-      tls: {
-        rejectUnauthorized: false // This allows self-signed certificates
       }
     });
-
-    // Rest of your code remains the same...
+    
+    // Rest of your code...
     // Verify transporter credentials
     try {
       await transporter.verify();

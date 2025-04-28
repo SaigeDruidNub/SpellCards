@@ -32,7 +32,7 @@ export const crystals: Crystal[] = [
       { name: "clarity"},
       { name: "peace"}
     ],
-    image: "Amethyst.jpg"  
+    image: "/Amethyst.jpg"  // Add leading slash
   },
   {
     name: "Aquamarine",
@@ -80,7 +80,7 @@ export const crystals: Crystal[] = [
       { name: "air"},
       { name: "inspiration"}
     ],
-    image: "Citrine.jpg"
+    image: "/Citrine.jpg" // Add leading slash
   },
   {
     name: "Fossilized Coral",
@@ -92,7 +92,7 @@ export const crystals: Crystal[] = [
       { name: "prosperity"},
       { name: "water"}
     ],
-    image: "fossilizedcoral.jpg"
+    image: "/fossilizedcoral.jpg"
   },
   {
     name: "Garnet",
@@ -104,7 +104,7 @@ export const crystals: Crystal[] = [
       { name: "stabilizing"},
       { name: "fire"}
     ],
-    image: "Garnet.jpg"
+    image: "/Garnet.jpg"
   },
   {
     name: "Jasper, Ocean",
@@ -116,7 +116,7 @@ export const crystals: Crystal[] = [
       { name: "self esteem"},
       { name: "water"}
     ],
-    image: "JasperOcean.jpg"
+    image: "/JasperOcean.jpg"
   },
   {
     name: "Jasper, Red",
@@ -128,7 +128,7 @@ export const crystals: Crystal[] = [
       { name: "energizing"},
       { name: "earth"}
     ],
-    image: "redjasper.jpg"
+    image: "/redjasper.jpg"
   },
   {
     name: "Kyanite, Blue",
@@ -139,7 +139,7 @@ export const crystals: Crystal[] = [
       { name: "serenity"},
       { name: "communication"}
     ],
-    image: "Kyanite.jpg"
+    image: "/Kyanite.jpg"
   },
   {
     name: "Labradorite",
@@ -152,7 +152,7 @@ export const crystals: Crystal[] = [
       { name: "mood"},
       { name: "water"}
     ],
-    image: "Labradorite.jpg"
+    image: "/Labradorite.jpg"
   },
   {
     name: "Moonstone, Rainbow",
@@ -163,7 +163,7 @@ export const crystals: Crystal[] = [
       { name: "mood"},
       { name: "water"}
     ],
-    image: "MoonstoneRainbow.jpg"
+    image: "/MoonstoneRainbow.jpg"
   },
   {
     name: "Obsidian, Black",
@@ -175,7 +175,7 @@ export const crystals: Crystal[] = [
       { name: "focus"},
       { name: "grounding"}
     ],
-    image: "blackobsidian.jpg"
+    image: "/blackobsidian.jpg"
   },
   {
     name: "Peridot",
@@ -186,7 +186,7 @@ export const crystals: Crystal[] = [
       { name: "peace"},
       { name: "balancing"}
     ],
-    image: "Peridot.jpg"
+    image: "/Peridot.jpg"
   },
   {
     name: "Pyrite",
@@ -195,7 +195,7 @@ export const crystals: Crystal[] = [
       { name: "abundance"},
       { name: "prosperity" }
     ],
-    image: "pyrite.jpg"
+    image: "/pyrite.jpg"
   },
   {
     name: "Quartz, Clear",
@@ -206,7 +206,7 @@ export const crystals: Crystal[] = [
       { name: "amplification"},
       { name: "focus"}
     ],
-    image: "quartz.jpg"
+    image: "/quartz.jpg"
   },
   {
     name: "Quartz, Rose",
@@ -217,7 +217,7 @@ export const crystals: Crystal[] = [
       { name: "release negativity" },
       { name: "self esteem"}
     ],
-    image: "QuartzRose.jpg"
+    image: "/QuartzRose.jpg"
   },
   {
     name: "Quartz, Rutilated",
@@ -229,7 +229,7 @@ export const crystals: Crystal[] = [
       { name: "air"},
       { name: "intuition"}
     ],
-    image: "RutileQuartz.jpg"
+    image: "/RutileQuartz.jpg"
   },
   {
     name: "Quartz, Smoky",
@@ -241,7 +241,7 @@ export const crystals: Crystal[] = [
       { name: "intuition"},
       { name: "earth"}
     ],
-    image: "QuartzSmoky.jpg"
+    image: "/QuartzSmoky.jpg"
   },
   {
     name: "Rhodonite",
@@ -253,7 +253,7 @@ export const crystals: Crystal[] = [
       { name: "earth"},
       { name: "self esteem"}
     ],
-    image: "rhodonite.jpg"
+    image: "/rhodonite.jpg"
   },
   {
     name: "Rubelite",
@@ -265,7 +265,7 @@ export const crystals: Crystal[] = [
       { name: "decisiveness"},
       { name: "nurturing"}
     ],
-    image: "Rubellite.jpg"
+    image: "/Rubellite.jpg"
   },
   {
     name: "Selenite",
@@ -276,7 +276,7 @@ export const crystals: Crystal[] = [
       { name: "protection"},
       { name: "air"}
     ],
-    image: "selenite.jpg"
+    image: "/selenite.jpg"
   },
   {
     name: "Sunstone",
@@ -287,7 +287,7 @@ export const crystals: Crystal[] = [
       { name: "energizing"},
       { name: "positivity"}
     ],
-    image: "Sunstone.jpg"
+    image: "/Sunstone.jpg"
   },
   {
     name: "Thousand Layer Stone",
@@ -299,7 +299,7 @@ export const crystals: Crystal[] = [
       { name: "transformation"},
       { name: "earth"}
     ],
-    image: "thousand-layer-stone.jpg"
+    image: "/thousand-layer-stone.jpg"
   },
   {
     name: "Tourmaline, Black",
@@ -310,7 +310,7 @@ export const crystals: Crystal[] = [
       { name: "grounding"},
       { name: "focus"}
     ],
-    image: "TourmalineBlack.jpg"
+    image: "/TourmalineBlack.jpg"
   },
   {
     name: "Tourmaline, Rainbow",
@@ -321,7 +321,7 @@ export const crystals: Crystal[] = [
       { name: "calming"},
       { name: "happiness"}
     ],
-    image: "tourmalinerainbow.jpg"
+    image: "/tourmalinerainbow.jpg"
   },
   {
     name: "Yooperlite",
@@ -332,7 +332,7 @@ export const crystals: Crystal[] = [
       { name: "self esteem"},
       { name: "fire"}
     ],
-    image: "yooperlite.jpg"
+    image: "/yooperlite.jpg"
   },
   
 ];

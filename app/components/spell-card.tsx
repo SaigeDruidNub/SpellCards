@@ -87,7 +87,7 @@ export function SpellCard(props: SpellCardProps) {
 
   return (
     <div className="w-full h-[600px]">
-      <PDFViewer className="w-full h-full" fileName={fileName}>
+      <PDFViewer className="w-full h-full">
         <SpellPDF {...props} />
       </PDFViewer>
     </div>
