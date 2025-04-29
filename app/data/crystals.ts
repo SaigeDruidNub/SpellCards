@@ -175,7 +175,7 @@ export const crystals: Crystal[] = [
       { name: "focus"},
       { name: "grounding"}
     ],
-    image: "/blackobsidian.jpg"
+    image: "/Blackobsidian.jpg"
   },
   {
     name: "Peridot",

@@ -15,6 +15,7 @@ import { crystals } from "./data/crystals";
 import { herbs } from "./data/herbs";
 import { SpellCard } from "./components/spell-card";
 import type { SpellComponent } from "./types";
+import { useToast } from "@/hooks/use-toast";
 
 export default function Home() {
   const [spellName, setSpellName] = useState("");
@@ -25,6 +26,7 @@ export default function Home() {
   const [words, setWords] = useState("");
   const [showSpellCard, setShowSpellCard] = useState(false);
   const [recipientEmail, setRecipientEmail] = useState("");
+  const { toast } = useToast();
 
   const handlePropertySearch = (property: string) => {
     const matchingCrystals = crystals
@@ -241,20 +243,7 @@ export default function Home() {
                 directions={directions}
                 words={words}
               />
-              <div className="flex gap-4">
-                <div className="flex-1">
-                  <Input
-                    type="email"
-                    placeholder="Enter recipient's email..."
-                    value={recipientEmail}
-                    onChange={(e) => setRecipientEmail(e.target.value)}
-                  />
-                </div>
-                <Button onClick={handleEmailSpell}>
-                  <Mail className="w-4 h-4 mr-2" />
-                  Send via Email
-                </Button>
-              </div>
+              
             </div>
           </DialogContent>
         </Dialog>
